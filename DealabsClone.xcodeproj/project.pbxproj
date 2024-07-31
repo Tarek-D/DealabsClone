@@ -15,6 +15,7 @@
 		F5F598EF2C5A7C03009350BE /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F598EE2C5A7C03009350BE /* SearchView.swift */; };
 		F5F598F12C5A7C3C009350BE /* MessagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F598F02C5A7C3C009350BE /* MessagingView.swift */; };
 		F5F598F32C5A7C50009350BE /* ProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F598F22C5A7C50009350BE /* ProfilView.swift */; };
+		F5F598F62C5A7D43009350BE /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F598F52C5A7D43009350BE /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		F5F598EE2C5A7C03009350BE /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		F5F598F02C5A7C3C009350BE /* MessagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingView.swift; sourceTree = "<group>"; };
 		F5F598F22C5A7C50009350BE /* ProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilView.swift; sourceTree = "<group>"; };
+		F5F598F52C5A7D43009350BE /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		F5F598EB2C5A7BC6009350BE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F5F598F52C5A7D43009350BE /* MainTabView.swift */,
 				F5F598DF2C5A7B46009350BE /* HomeView.swift */,
 				F5F598EC2C5A7BEA009350BE /* NotificationBellView.swift */,
 				F5F598EE2C5A7C03009350BE /* SearchView.swift */,
@@ -169,6 +172,7 @@
 				F5F598F12C5A7C3C009350BE /* MessagingView.swift in Sources */,
 				F5F598F32C5A7C50009350BE /* ProfilView.swift in Sources */,
 				F5F598ED2C5A7BEA009350BE /* NotificationBellView.swift in Sources */,
+				F5F598F62C5A7D43009350BE /* MainTabView.swift in Sources */,
 				F5F598E02C5A7B46009350BE /* HomeView.swift in Sources */,
 				F5F598DE2C5A7B46009350BE /* DealabsCloneApp.swift in Sources */,
 			);
