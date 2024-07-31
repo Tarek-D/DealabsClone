@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		F5F598DE2C5A7B46009350BE /* DealabsCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F598DD2C5A7B46009350BE /* DealabsCloneApp.swift */; };
-		F5F598E02C5A7B46009350BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F598DF2C5A7B46009350BE /* ContentView.swift */; };
+		F5F598E02C5A7B46009350BE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F598DF2C5A7B46009350BE /* HomeView.swift */; };
 		F5F598E22C5A7B49009350BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F598E12C5A7B49009350BE /* Assets.xcassets */; };
 		F5F598E52C5A7B49009350BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F598E42C5A7B49009350BE /* Preview Assets.xcassets */; };
+		F5F598ED2C5A7BEA009350BE /* NotificationBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F598EC2C5A7BEA009350BE /* NotificationBellView.swift */; };
+		F5F598EF2C5A7C03009350BE /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F598EE2C5A7C03009350BE /* SearchView.swift */; };
+		F5F598F12C5A7C3C009350BE /* MessagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F598F02C5A7C3C009350BE /* MessagingView.swift */; };
+		F5F598F32C5A7C50009350BE /* ProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F598F22C5A7C50009350BE /* ProfilView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F5F598DA2C5A7B46009350BE /* DealabsClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DealabsClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F598DD2C5A7B46009350BE /* DealabsCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealabsCloneApp.swift; sourceTree = "<group>"; };
-		F5F598DF2C5A7B46009350BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5F598DF2C5A7B46009350BE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F5F598E12C5A7B49009350BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5F598E42C5A7B49009350BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5F598EC2C5A7BEA009350BE /* NotificationBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationBellView.swift; sourceTree = "<group>"; };
+		F5F598EE2C5A7C03009350BE /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		F5F598F02C5A7C3C009350BE /* MessagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingView.swift; sourceTree = "<group>"; };
+		F5F598F22C5A7C50009350BE /* ProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,8 @@
 		F5F598DC2C5A7B46009350BE /* DealabsClone */ = {
 			isa = PBXGroup;
 			children = (
-				F5F598DD2C5A7B46009350BE /* DealabsCloneApp.swift */,
-				F5F598DF2C5A7B46009350BE /* ContentView.swift */,
+				F5F598F42C5A7CAD009350BE /* App */,
+				F5F598EB2C5A7BC6009350BE /* Views */,
 				F5F598E12C5A7B49009350BE /* Assets.xcassets */,
 				F5F598E32C5A7B49009350BE /* Preview Content */,
 			);
@@ -65,6 +73,26 @@
 				F5F598E42C5A7B49009350BE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5F598EB2C5A7BC6009350BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F5F598DF2C5A7B46009350BE /* HomeView.swift */,
+				F5F598EC2C5A7BEA009350BE /* NotificationBellView.swift */,
+				F5F598EE2C5A7C03009350BE /* SearchView.swift */,
+				F5F598F02C5A7C3C009350BE /* MessagingView.swift */,
+				F5F598F22C5A7C50009350BE /* ProfilView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F5F598F42C5A7CAD009350BE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F5F598DD2C5A7B46009350BE /* DealabsCloneApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5F598E02C5A7B46009350BE /* ContentView.swift in Sources */,
+				F5F598EF2C5A7C03009350BE /* SearchView.swift in Sources */,
+				F5F598F12C5A7C3C009350BE /* MessagingView.swift in Sources */,
+				F5F598F32C5A7C50009350BE /* ProfilView.swift in Sources */,
+				F5F598ED2C5A7BEA009350BE /* NotificationBellView.swift in Sources */,
+				F5F598E02C5A7B46009350BE /* HomeView.swift in Sources */,
 				F5F598DE2C5A7B46009350BE /* DealabsCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
