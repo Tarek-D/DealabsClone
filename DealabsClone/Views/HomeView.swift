@@ -22,7 +22,9 @@ struct HomeView: View {
 struct HeaderHomeView: View {
     var body: some View {
         HStack {
-            Button(action: {}, label: {
+            Button(action: {
+                
+            },      label: {
                 Image(systemName: "line.3.horizontal")
             })
             Spacer()
